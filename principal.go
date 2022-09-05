@@ -14,12 +14,8 @@ import (
 
 func main() {
 	var (
-		nome  string
 		opcao int
 	)
-	fmt.Println("Informe o seu nome")
-	fmt.Scan(&nome)
-	fmt.Println("Olá sr. ", nome)
 	for {
 		fmt.Println("1 - Encontrar o maior número")
 		fmt.Println("2 - Encontrar o maior número")
